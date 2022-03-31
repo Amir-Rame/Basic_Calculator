@@ -50,6 +50,7 @@ height: 20rem;
     align-items: center;
     cursor: pointer;
     user-select: none;
+    transition: all .2s ease-in-out;
 }
 
 .his1:hover{
