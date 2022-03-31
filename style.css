@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+:root{
+    --color-dark: #252525;
+    --color-gray:#3c3c3c;
+    --color-light: #eeeeee;
+    --color-accent: #576ed6;
+}
+
+*{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Dosis', sans-serif;
+}
+
+body{
+    background-color: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box{
+    background-color: var(--color-light);
+    border: 5px solid var(--color-accent);
+    border-radius: 5px;
+    width: 60rem;
+    margin: 2rem 0;
+}
+
+.screen{
+color:var(--color-dark);
+height: 20rem;
+}
+
+.screen h2{
+    color:var(--color-dark);
+    font-size: 4rem;
+    padding:.5rem;
+    padding-left: 2rem;
+    margin: 0;
+    user-select: none;
+}
+.his{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.his1:hover{
+    background-color: var(--color-accent);
+}
+.his1:hover h2{
+    color:var(--color-light);
+}
+
+h3{
+    font-size:3rem;
+    color:var(--color-light);
+}
+#history1{
+    color:var(--color-gray);
+    font-size: 3rem;
+}
+    
+
+.keyboard{
+color:var(--color-dark);
+height: 75rem;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(5,1fr);
+z-index: 0;
+}
+
+.btn{
+    font-size: 4rem;
+    margin: 1rem;
+    background-color: var(--color-gray);
+    border-radius: 5px;
+    color:var(--color-light);
+    transition: all .2s ease-in-out;
+    position: relative;
+    cursor: pointer;
+    border:none;
+}
+
+.btn:hover{
+    color:var(--color-accent);
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
